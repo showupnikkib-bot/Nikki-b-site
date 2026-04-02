@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikki B</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #2c2c2c;
+      background: #f7f5f2;
+    }
+
+    /* NAV */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: white;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 40px;
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* SECOND NAV */
+    .subnav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background: #d8d0c7;
+      padding: 12px;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 120px 20px 80px;
+      background: linear-gradient(to bottom, #ffffff, #f3f0ec);
+    }
+
+    .hero small {
+      letter-spacing: 3px;
+      font-size: 11px;
+      color: #999;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      margin: 20px 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #666;
+    }
+
+    .hero .quote {
+      margin-top: 30px;
+      font-style: italic;
+      color: #7a7a7a;
+    }
+
+    /* SPLIT SECTION */
+    .split {
+      display: flex;
+      align-items: center;
+      padding: 60px;
+      gap: 40px;
+      background: #f7f5f2;
+    }
+
+    .split img {
+      width: 50%;
+      border-radius: 10px;
+    }
+
+    .split-text {
+      width: 50%;
+    }
+
+    .split-text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .split-text p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .btn {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 12px 24px;
+      background: #d8d0c7;
+      border-radius: 30px;
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .split {
+        flex-direction: column;
+      }
+
+      .split img,
+      .split-text {
+        width: 100%;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <div class="nav">
+    <div class="logo">Nikki B</div>
+    <div class="menu">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">COMMUNITY</a>
+      <a href="#">SHOP</a>
+      <a href="#">CONNECT</a>
+    </div>
+  </div>
+
+  <!-- SUB NAV -->
+  <div class="subnav">
+    <div>BLOG</div>
+    <div>ROOTED & HOMEMADE</div>
+    <div>REAL ESTATE WISDOM</div>
+    <div>FREE RESOURCES</div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <small>EXPLORING</small>
+    <h1>Real Life Happens Here.</h1>
+    <p>Life, business & stories with Nikki B.</p>
+    <div class="quote">
+      The busy seasons, the routines, the healing — <br/>
+      and the joy in between.
+    </div>
+  </section>
+
+  <!-- SPLIT -->
+  <section class="split">
+    <img src="https://via.placeholder.com/600x700" alt="Nikki B"/>
+    <div class="split-text">
+      <h2>This isn’t a highlight reel.</h2>
+      <p>
+        I share the hard, the joy — and everything in between.<br/><br/>
+        Because somewhere in helping you, I find my joy too.
+      </p>
+      <a href="#" class="btn">More About Nikki B →</a>
+    </div>
+  </section>
+
+</body>
+</html>
